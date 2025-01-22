@@ -50,5 +50,3 @@ def test_login_success(login_page, dashboard_page, username, password):
     login_page.navigate()
     login_page.login(username,password)
     dashboard_page.assert_welcome_message(f"Welcome {username}")
-
-#test first branch
