@@ -32,5 +32,3 @@ class LoginPage:
     def get_error_message(self):
          return self.error_message.inner_text()
 
-    def get_error_message1(self):
-         return self.error_message.inner_text()
